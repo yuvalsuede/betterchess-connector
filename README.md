@@ -20,6 +20,18 @@ https://mcp.betterchess.co
 Sign in with a BetterChess account. Nothing installs. No terminal, no Node, no
 Stockfish build, no config file. Works on the free Claude plan, and on your phone.
 
+## Install as a plugin (Claude Code / Cowork) — engine + live coach skill
+
+```
+/plugin marketplace add yuvalsuede/betterchess-connector
+/plugin install betterchess@betterchess
+```
+
+That adds the hosted connector and the `chess-live-coach` skill: open a chess.com game
+against a bot in the Claude browser, say "coach me", and Claude arms the on-board rig —
+arrows, the plan behind each move, Why / Risk / Block in the chat. The `plugin/` folder
+in this repo is the plugin itself if you prefer to install it from a file.
+
 ## Tools
 
 | Tool | Returns |

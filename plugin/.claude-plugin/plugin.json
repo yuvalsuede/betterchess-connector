@@ -1,0 +1,10 @@
+{
+  "name": "betterchess",
+  "version": "1.0.0",
+  "description": "A real chess engine for Claude, plus a live coach for chess.com bot games: arrows on the board, the plan behind every move, Why / Risk / Block in the chat.",
+  "author": { "name": "BetterChess", "url": "https://betterchess.co" },
+  "homepage": "https://betterchess.co/connector",
+  "repository": "https://github.com/yuvalsuede/betterchess-connector",
+  "license": "MIT",
+  "keywords": ["chess", "engine", "coach", "chess.com", "stockfish", "analysis"]
+}

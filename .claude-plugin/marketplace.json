@@ -1,0 +1,17 @@
+{
+  "name": "betterchess",
+  "owner": { "name": "BetterChess", "url": "https://betterchess.co" },
+  "metadata": { "description": "BetterChess — a real chess engine and live coach for Claude", "version": "1.0.0" },
+  "plugins": [
+    {
+      "name": "betterchess",
+      "source": "./plugin",
+      "description": "A real chess engine for Claude, plus a live coach for chess.com bot games.",
+      "version": "1.0.0",
+      "author": { "name": "BetterChess" },
+      "homepage": "https://betterchess.co/connector",
+      "category": "productivity",
+      "keywords": ["chess", "engine", "coach"]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "betterchess": {
+      "type": "http",
+      "url": "https://mcp.betterchess.co"
+    }
+  }
+}
