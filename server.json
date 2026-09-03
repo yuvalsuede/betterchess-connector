@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
   "name": "io.betterchess/betterchess",
   "description": "A real chess engine for Claude. Computes the position instead of recalling it: every attacker and defender, the engine's evaluation, what the opponent threatens, and what the move you are about to play walks into.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "websiteUrl": "https://betterchess.co/connector",
   "repository": {
     "url": "https://github.com/yuvalsuede/betterchess-connector",

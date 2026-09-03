@@ -63,3 +63,14 @@ Free accounts get a daily analysis budget. Pro is $5.99/month, removes the cap a
 unlocks `chess_review`. Cancel anytime.
 
 Docs: https://betterchess.co/docs
+
+## Where this lives
+
+This folder is the source of truth for the public MCP-registry listing. The listing is
+published from the public repo `yuvalsuede/betterchess-connector` (the registry needs a
+public URL; this app repo is private) — run `scripts/sync-connector.sh` after editing
+here and push that repo. The server itself is this same repository: `lib/mcp-tools.js` (tools), `lib/mcp-coach.js` + `public/rig.js`
+(the live-coach rig), `app/api/coach/analyse` (the engine the rig calls). There is one
+BetterChess MCP — the hosted one at `https://mcp.betterchess.co`. The old local
+`betterchess-mcp` (stdio, Stockfish on your own machine) is retired: it bypassed the
+subscription and drifted from the rig.
